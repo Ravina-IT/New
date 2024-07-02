@@ -1,0 +1,45 @@
+#footer {
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+}
+
+#footer .icon {
+    background-color: #8d3482;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 0 4px 4px rgba(237, 143, 237, 0.937), 0 0 10px 6px #8d3482;
+    margin-right: 10px;
+}
+
+.contact-para {
+    text-align: left;
+    padding: 4%;
+    margin: 0;
+}
+
+.para-col {
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.foot-name{
+    color: rgba(237, 143, 237, 0.937);
+}
+
+@media (min-width: 576px) {
+    #footer .d-flex {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        float: left !important;
+    }
+    
+    .contact-para {
+        margin-left: 10px;
+    }
+}
